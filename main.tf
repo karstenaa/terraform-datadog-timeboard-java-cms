@@ -117,7 +117,7 @@ resource "datadog_timeboard" "java_cms" {
   }
 
   graph {
-    title     = "ScheduledExecutor Queue"
+    title     = "ScheduledExecutor Queue Count"
     viz       = "timeseries"
     autoscale = true
 
