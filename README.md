@@ -9,7 +9,7 @@ Usage
 -----
 
 ```hcl
-module "timeboard_java_cms_entcurr-app" {
+module "timeboard_java_cms_beical-app" {
   source         = "github.com/traveloka/terraform-datadog-timeboard-java-cms.git?ref=0.1.0"
   product_domain = "${var.product_domain}"
   cluster        = "${var.cluster}"

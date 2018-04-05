@@ -3,5 +3,5 @@ variable "product_domain" {
 }
 
 variable "cluster" {
-  default = "locsrch-app"
+  default = "beical-app"
 }
